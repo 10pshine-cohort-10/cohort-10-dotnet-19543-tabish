@@ -1,0 +1,31 @@
+# .NET build and IDE output
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+TestResults/
+coverage/
+*.coverage
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+*.pfx
+*.p12
+*.key
+
+# Generated and local files
+*.log
+.DS_Store
+Thumbs.db
