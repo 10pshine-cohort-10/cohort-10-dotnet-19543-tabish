@@ -1,0 +1,23 @@
+.welcome {
+  width: min(100%, 42rem);
+  padding: 2rem;
+  border: 1px solid #dce3ed;
+  border-radius: 1rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.brand {
+  color: #2455a4;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: clamp(2rem, 6vw, 3rem);
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.6;
+}
